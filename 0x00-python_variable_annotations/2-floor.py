@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-
-import math
+"""
+trancate float to int
+"""
 
 def floor(n: float) -> int:
     """
     returns floor of float n
     """
 
-    return math.floor(n)
+    return int(n)
