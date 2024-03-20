@@ -3,6 +3,7 @@
 import random
 import asyncio
 
+
 async def async_generator():
     """
     coroutine will loop 10 times asynchronously wait 1 sec and yeild random num
